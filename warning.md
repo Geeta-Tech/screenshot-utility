@@ -15,4 +15,4 @@
   - For a safer option, wait until a certified version is available.
 
 ### Contact for Support
-If you need further assistance, please open an issue on this repository or contact our support team at [harshyadav.personal01@gmail.com](mailto: harshyadav.personal01@gmail.com).
+If you need further assistance, please open an issue on this repository or contact our support team at [harshyadav.personal01@gmail.com]
