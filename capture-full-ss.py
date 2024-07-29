@@ -16,10 +16,8 @@ def choose_folder():
 def take_screenShot():
     file_name = file_var.get()
     if folder_path and file_name:
-
         if not os.access(folder_path,os.W_OK):
             messagebox.showerror("Error","You don't have permissions to save files in the directory.")
-
             return
 
         #construct the full file path
@@ -34,9 +32,7 @@ def take_screenShot():
 
 def capture_screenShot(file_path):
     # get the file name form the variable
-
     ss = pyautogui.screenshot()
-
     try:
         # save the screenshot to the specified path
         ss.save(file_path)
@@ -47,25 +43,20 @@ def capture_screenShot(file_path):
     # show the window again
     win.deiconify()
 
-
 # create the main window
 win = Tk()
-
 
 win.title("Easier to take screenshot")
 win.geometry("800x280")
 win.config(bg = "#4b5262")
 win.resizable(False,False)
 
-
 # variable to store
 entry_var = StringVar(value="Choose folder")
 file_var = StringVar()
-folder_var = StringVar()
 msgfile = StringVar(value="Enter file name in the box : ")
 
 # create a entry box to show an entry box
-
 entry = Entry(win,textvariable=entry_var,font=('Time New Roman',15),state="readonly",bd=1,bg="brown")
 entry.place(x=10,y=15,height=50,width=680)
 
@@ -78,7 +69,6 @@ msgFile.place(x=50,y=85,height=50,width=350)
 
 entryFile_name = Entry(win,textvariable=file_var,font=('Time New Roman',15))
 entryFile_name.place(x=410,y=85,height=50,width=340)
-
 
 # create a button to take screen shot
 button = Button(win,text="Take Screenshot",font=('Time New Roman',25),cursor="hand2",command=take_screenShot)
