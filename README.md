@@ -32,10 +32,11 @@ Install the required dependencies using pip:
 pip install pyautogui pillow
 ```
 __Additional Linux Dependencies__
-on some `Linux distributions`, you might also need to install `gnome-screenshot` to ensure that `PyAutoGui` can capture screenshots:
+on some `Linux distributions`, you might also need to install `gnome-screenshot` to ensure that `PyAutoGui` can capture screenshots
 ```sh
 sudo apt-get install gnome-screenshot
 ```
+>**Note :** On Linux, `gnome-screenshot` is required for PyAutoGui to function correctly. If you encounter issue, make sure this package is installed
 # Clone the repository or download the script file
 ## After installing all dependencies
 #### Windows
@@ -51,8 +52,13 @@ python3 downloaded_script.py
 python3 downloaded_script.py
 ```
 ## Usage 
-1. Launch the application by running the script. ![sample]()
-2. 
+1. Launch the application by running the script. ![sample](https://github.com/HarshYadav152/screen-shot-utility/blob/main/sample-image.png?raw=true)
+2. Click the "select" button to choose a folder where the screenshot will be saved.
+3. Enter the file name for the screenshot in the provided text box.
+4. Click the "take screenshot" button to capture and save the screenshot.
+5. A message box will confirm if the screenshot was successfully saved or if there was an error.
+
+>**Note :** *Ensure you have the necessary permission to save the files in the selected directory.*
 
 ### Contributing
 Contribution are welcome! Please open an issue or submit a pull request on [GitHub](https://github.com/HarshYadav152/screen-shot-utility)
