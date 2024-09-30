@@ -10,6 +10,10 @@ A simple and easy-to-use `GUI` application for taking screenshots. This utility 
 - __Directory selection__: Allows users to choose the save directory using a file dialog.
 - __Custom file names__: Users can specify the file name for the screenshot.
 
+## Special Features
+- **Press `m` for minimize the current window**
+- **Press `s` for opening dialog box for selecting folder**
+
 ### if you encountered an error while taking screenshot.. It will show the appropriate error message ..
 Any doubt you can easily create an issue
 
