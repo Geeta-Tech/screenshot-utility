@@ -11,9 +11,9 @@ A simple and easy-to-use `GUI` application for taking screenshots. This utility 
 - __Custom file names__: Users can specify the file name for the screenshot.
 
 ## Special Features
-- **Press `m` for minimize the current window**
-- **Press `s` for opening dialog box for selecting folder**
-
+- **Press `m` for minimize the current window** ```[May cause problem]```
+- **Press `s` for opening dialog box for selecting folder** ```[May cause problem]```
+> Avoid use these untill new update come.
 ### if you encountered an error while taking screenshot.. It will show the appropriate error message ..
 Any doubt you can easily create an issue
 
