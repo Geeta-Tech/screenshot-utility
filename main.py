@@ -68,8 +68,10 @@ win.bind('<Return>', lambda event:button.invoke())
 # Bind esc key for closing window
 win.bind("<Escape>", lambda event:win.destroy())
 # Bind m key for minimize the window
-win.bind("<m>", lambda event:win.iconify())
+win.bind("<Control+m>", lambda event:win.iconify())
+win.bind("<Control+M>", lambda event:win.iconify())
 # Bind s key for open file dialog
-win.bind("<s>", lambda event:file_option.invoke())
+win.bind("<Control+o>", lambda event:file_option.invoke())
+win.bind("<Control+O>", lambda event:file_option.invoke())
 
 win.mainloop()
