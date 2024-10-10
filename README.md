@@ -57,8 +57,10 @@ python3 downloaded_script.py
 ```
 ## Usage 
 1. Launch the application by running the script.
-  - Light version (old release)![sample](https://github.com/Geeta-Tech/screenshot-utility/blob/main/sample-image.png?raw=true)
-  - Dark version (new release)![sample](https://github.com/Geeta-Tech/screenshot-utility/blob/main/ss-dark-mode.png?raw=true)
+  - Light version (old release)
+    - ![sample](https://github.com/Geeta-Tech/screenshot-utility/blob/main/sample-image.png?raw=true)
+  - Dark version (new release)
+    - ![sample](https://github.com/Geeta-Tech/screenshot-utility/blob/main/ss-dark-mode.png?raw=true)
 2. Click the "select" button to choose a folder where the screenshot will be saved.
 3. Enter the file name for the screenshot in the provided text box.
 4. Click the "take screenshot" button to capture and save the screenshot.
