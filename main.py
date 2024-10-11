@@ -61,7 +61,7 @@ button.place(relx=0.2, rely=0.59, relheight=0.2, relwidth=0.6)
 # footer frame
 footer_frame = Frame(win, bg="grey", height=10)
 footer_frame.pack(side=BOTTOM, fill=X, padx=10, pady=10)
-footer_label = Label(footer_frame,text="Simple utility for taking screenshot created by Harsh Yadav check it on github @HarshYadav152 for Source Code",bg="grey")
+footer_label = Label(footer_frame,text="Simple utility for taking screenshot created by Geeta Technologies check it on github @Geeta-Tech for Source Code",bg="grey")
 footer_label.pack(side=LEFT, padx=10)
 # bind return key with button
 win.bind('<Return>', lambda event:button.invoke())
